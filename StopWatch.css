@@ -1,0 +1,60 @@
+body {
+    height: 100vh;
+    background: url(tartan-track-2678544_960_720.jpg) no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 40%;
+    height: 250px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow:0 0 50px ;
+}
+
+#timer {
+    width: 100%;
+    font-size: 75px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 35px;
+    position: relative;
+    right:35px;
+}
+
+.button {
+    text-align: center;
+    /* margin-top: 40px; */
+}
+
+button {
+    margin: 0px 10px;
+    border: none;
+}
+
+button i {
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 10px;
+    color: white;
+}
+
+button i:hover {
+    /* opacity: 0.7; */
+    box-shadow: 0 0 10px;
+    color: rgb(17, 167, 132);
+}
+
+#play {
+    background-color: green;
+}
+
+#pause {
+    background-color: yellow;
+}
+
+#reset {
+    background-color: red;
+}
